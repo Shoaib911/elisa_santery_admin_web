@@ -14,7 +14,7 @@ function IncidentManagement() {
   const [address, setAddress] = useState("Fetching address...");
 
 
-   const uri ="https://alert-system-fastapi-8749c7285c49.herokuapp.com";
+   const uri ="http://localhost:8000";
 
   const fetchIncidents = async () => {
     try {

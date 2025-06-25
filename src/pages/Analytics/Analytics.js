@@ -23,7 +23,7 @@ ChartJS.register(
   Legend
 );
 
-const uri = "https://alert-system-fastapi-8749c7285c49.herokuapp.com";
+const uri = "http://localhost:8000";
 
 const Analytics = () => {
   const [incidents, setIncidents] = useState([]);

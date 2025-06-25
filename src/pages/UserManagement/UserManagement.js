@@ -7,7 +7,7 @@ function UserManagement() {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedUser, setSelectedUser] = useState(null);
 
-  const uri ="https://alert-system-fastapi-8749c7285c49.herokuapp.com";
+  const uri = "http://localhost:8000";
 
   // Fetch users from Firebase on component mount
   useEffect(() => {

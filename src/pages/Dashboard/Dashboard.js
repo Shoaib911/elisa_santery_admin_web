@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "./Dashboard.css";
 
-const uri = "https://alert-system-fastapi-8749c7285c49.herokuapp.com";
+const uri = "http://localhost:8000";
 
 function Dashboard() {
   const [stats, setStats] = useState({ active: 0, resolved: 0, pending: 0 });
