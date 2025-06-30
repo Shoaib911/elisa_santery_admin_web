@@ -3,7 +3,7 @@ import Modal from 'react-modal';
 import axios from 'axios';
 import './AgentModal.css';
 
-const uri = "https://alert-system-fastapi-8749c7285c49.herokuapp.com";
+const uri = "https://elisasentary-cdd246e98fea.herokuapp.com";
 
 const Agent_Modal = ({ isOpen, setIsOpen, setAgents }) => {
   const customStyles = {
