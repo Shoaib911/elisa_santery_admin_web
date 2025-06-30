@@ -23,7 +23,7 @@ ChartJS.register(
   Legend
 );
 
-const uri = "http://localhost:8000";
+const uri = "https://elisasentary-cdd246e98fea.herokuapp.com";
 
 const Analytics = () => {
   const [incidents, setIncidents] = useState([]);

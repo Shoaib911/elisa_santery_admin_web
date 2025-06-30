@@ -7,7 +7,7 @@ function UserManagement() {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedUser, setSelectedUser] = useState(null);
 
-  const uri = "http://localhost:8000";
+  const uri = "https://elisasentary-cdd246e98fea.herokuapp.com";
 
   // Fetch users from Firebase on component mount
   useEffect(() => {

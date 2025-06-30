@@ -14,7 +14,7 @@ function IncidentManagement() {
   const [address, setAddress] = useState("Fetching address...");
 
 
-   const uri ="http://localhost:8000";
+   const uri ="https://elisasentary-cdd246e98fea.herokuapp.com";
 
   const fetchIncidents = async () => {
     try {

@@ -3,7 +3,7 @@ import axios from "axios";
 import "./SignIn.css";
 import { requestPermission } from "../../firebase";
 
-const uri = "http://localhost:8000";
+const uri = "https://elisasentary-cdd246e98fea.herokuapp.com";
 
 const SignIn = ({ setIsAuthenticated }) => {
   const [email, setEmail] = useState("");

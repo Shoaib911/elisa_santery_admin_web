@@ -3,7 +3,7 @@ import axios from "axios";
 import "./AgentMonitoring.css";
 import Agent_Modal from "../../components/Modals/Agent_Modal";
 
-const uri = "http://localhost:8000";
+const uri = "https://elisasentary-cdd246e98fea.herokuapp.com";
 
 function AgentMonitoring() {
   const [agents, setAgents] = useState([]);
